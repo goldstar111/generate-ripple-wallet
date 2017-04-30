@@ -1,7 +1,4 @@
-# generate-ripple-wallet
-Ripple wallet generator (Address + secret)
-
-#Function
+# Ripple wallet generator
 Generates key-pair: public (address) and private key (secret).
 
 Run the code on github:
@@ -9,7 +6,7 @@ https://octillionsa.github.io/generate-ripple-wallet/
 
 Or download and run locally (works offline in your browser).
 
-# credits
+# Credits
 
 - ripple-lib
 https://github.com/ripple/ripple-lib
