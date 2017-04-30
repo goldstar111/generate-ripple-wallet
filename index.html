@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <script src="js/lodash.js"></script>
+  <script src="js/ripple-0.17.4.js"></script>
+  <link rel="stylesheet" href="css/font-awesome.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+ </head>
+<body>
+  <div class="main-box create">
+    <div class="social-icons">
+      <a href="https://twitter.com/bithomp" target="_blank"><i class="fa fa-twitter"></i></a>
+      <a href="https://www.instagram.com/bithomp/" target="_blank"><i class="fa fa-instagram"></i></a>
+      <a href="https://bithomp.com" target="_blank"><i class="fa fa-home"></i></a>
+    </div>
+    <h1>Create your new Ripple account</h1>
+    <div id="newAccount">
+
+      <div class="input-prepend" title="Ripple address">
+        <div class="prepend">Ripple address:</div>
+        <input type="text" readonly="readonly" id="address"/>
+      </div>
+
+      <div class="input-prepend" title="Ripple secret">
+        <div class="prepend">Ripple secret:</div>
+        <input type="text" readonly="readonly" id="secret" />
+      </div>
+
+      <div class="status" id="status">
+      </div>
+       
+      <button onclick="newripple()" id="button">
+        Generate
+      </button>
+      <div class="clearfix"></div>
+    </div>
+    <hr>
+    <footer>
+      © 2015 - <span id="thisYear">2017</span>
+      <a href="http://octillion.info" target="_blank">Octillion S.A.</a> 
+      All Rights Reserved
+    </footer>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
